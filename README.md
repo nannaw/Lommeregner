@@ -10,3 +10,9 @@ Loops
 Funktioner
 Document Object Model DOM 
 Classes og Objects
+
+28-09-2020
+
+Logbogsnotat:
+
+
