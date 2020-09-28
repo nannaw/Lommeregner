@@ -15,4 +15,4 @@ Classes og Objects
 
 Logbogsnotat:
 
-
+I dag har jeg kigget lidt rundt på forskellige sider, hvor man kan lave en lommeregner.
