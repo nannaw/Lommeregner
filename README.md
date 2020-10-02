@@ -20,3 +20,7 @@ I dag har jeg kigget lidt rundt på forskellige sider, hvor man kan lave en lomm
 30-09-2020
 
 Jeg har i dag kigget på det kode, som Simon har lavet, og prøvet at forstå den.
+
+02-10-2020
+
+I dag har jeg kigget på forskellige eksempler af kode.
