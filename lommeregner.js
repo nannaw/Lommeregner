@@ -1,28 +1,21 @@
-let resultat = create("p")
-resultat.innerHTML = 0;
 
-let input = create("input")
-input.value = 0;
 
-let plus = create("button");
-plus.innerHTML = "+";
-plus.onclick = udregnPlus;
+function addTwo () {
+  var x = parseInt (document.getElementById('txt1').value);
+  var y = parseInt (document.getElementById('txt2').value);
 
-let minus = create("button");
-minus.innerHTML = "-";
-minus.onclick = udregnMinus;
-
-function udregnPlus() {
-  resultat.innerHTML = parseFloat(resultat.innerHTML) + parseFloat(input.value);
-  input.value = 0;
-}
-
-function udregnMinus() {
-  resultat.innerHTML = parseFloat(resultat.innerHTML) - parseFloat(input.value);
-  input.value = 0;
+  var resultat = x + y;
+  document.getElementById('resultat').value = resultat;
 }
 
 
-function create(type) {
-  return document.body.appendChild(document.createElement(type));
+function minusTwo () {
+  var x = parseInt (document.getElementById('txt1').value);
+  var y = parseInt (document.getElementById('txt2').value);
+
+  var resultat = x - y;
+  document.getElementById('resultat').value = resultat;
+
 }
+  
+
